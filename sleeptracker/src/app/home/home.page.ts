@@ -11,7 +11,7 @@ import { StanfordSleepinessData } from '../data/stanford-sleepiness-data';
 })
 export class HomePage {
 
-	constructor(public sleepService:SleepService) {
+  constructor(public sleepService:SleepService) {
 
 	}
 
@@ -23,4 +23,5 @@ export class HomePage {
 	get allSleepData() {
 		return SleepService.AllSleepData;
 	}
+
 }
