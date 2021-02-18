@@ -3,10 +3,14 @@ import { TestBed } from '@angular/core/testing';
 import { SleepService } from './sleep.service';
 
 describe('SleepService', () => {
-  beforeEach(() => TestBed.configureTestingModule({}));
+  let service: SleepService;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(SleepService);
+  });
 
   it('should be created', () => {
-    const service: SleepService = TestBed.get(SleepService);
     expect(service).toBeTruthy();
   });
 });
