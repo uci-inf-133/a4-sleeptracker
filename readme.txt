@@ -9,7 +9,7 @@
 - */2 Either using a native device resource or backing up logged data
 - */2 Following good principles of mobile design
 - */2 Creating a compelling app
-- */1 A readme which explains how these features were implemented and their design rationale
+- */1 A readme and demo video which explains how these features were implemented and their design rationale
 
 2. How long, in hours, did it take you to complete this assignment?
 
@@ -61,6 +61,5 @@
 13. If you backed up logged data, where does it back up to?
 
 
-
-14. Did you add any "extra" features, such as other data to log, the ability to edit or delete data, or changes to the styling of the app? If so, what did you add? How do these add to the experience of the app?
+14. How does your app implement or follow principles of good mobile design?
 
