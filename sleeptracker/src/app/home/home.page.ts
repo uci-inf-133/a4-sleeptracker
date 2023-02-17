@@ -10,9 +10,8 @@ import { StanfordSleepinessData } from '../data/stanford-sleepiness-data';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-	constructor(public sleepService:SleepService) {
-
+	
+  constructor(public sleepService:SleepService) {
 	}
 
 	ngOnInit() {
